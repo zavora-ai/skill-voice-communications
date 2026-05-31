@@ -1,12 +1,11 @@
 ---
 name: voice-communications
 description: Orchestrate voice operations — manage calls, transcribe conversations, analyze sentiment, configure IVR, access recordings, and track call center analytics. Use when making calls, reviewing transcripts, analyzing call sentiment, managing IVR menus, searching call history, or checking agent performance.
-version: "1.0.0"
 license: Apache-2.0
 compatibility: Requires mcp-voice server connected (Twilio, Vonage, Deepgram).
 allowed-tools: [list_calls, get_call, initiate_call, transfer_call, end_call, schedule_call, get_transcript, get_call_summary, analyze_sentiment, search_transcripts, get_ivr_menu, update_ivr_menu, list_queues, route_call, list_recordings, get_recording, delete_recording, get_call_metrics, get_agent_stats, get_sentiment_trends]
-tags: [communication, voice, calls, transcription, sentiment, ivr, call-center]
 metadata:
+  category: communication
   author: Zavora AI
   mcp-server: mcp-voice
   revenue-impact: direct
